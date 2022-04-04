@@ -13,7 +13,8 @@ const volumeSpan = document.querySelector("#volume");
 
 window.addEventListener("load", function() {
 	console.log("Good job opening the window")
-
+	video.autoplay = false;
+	video.loop = false;
 });
 
 playButton.addEventListener("click", function() {
