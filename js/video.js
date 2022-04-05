@@ -39,7 +39,7 @@ speedButton.addEventListener("click", function() {
 })
 
 skipButton.addEventListener("click", function() {
-	if (video.currentTime < video.duration) {
+	if (video.currentTime + 15 <= video.duration) {
 		video.currentTime += 15;
 	} else {
 		video.currentTime = 0;
